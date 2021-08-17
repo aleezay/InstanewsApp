@@ -66,15 +66,4 @@ npx gulp
 
 ---
 
-## Personal Learnings
-
-### Web Developer (Project 2)
-
-This is a project produced from the following lessons from Week 3 to Week 4:
-
-1. Ajax, JSON, and APIs
-2. Gulp
-3. Sass / CSS Preprocessors
-4. CSS3 Transitions & Transforms
-
 Aleezay, Front-End Developer
