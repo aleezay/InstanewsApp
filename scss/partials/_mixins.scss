@@ -1,0 +1,19 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@mixin tablet {
+  @media (min-width: $tablet-width) {
+    @content;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@mixin desktop {
+  @media (min-width: $desktop-width) {
+    @content;
+  }
+}
+
+@mixin flex($flex-drtn: column, $justify: center, $align: center) {
+  flex-direction: $flex-drtn;
+  justify-content: $justify;
+  align-items: $align;
+}
